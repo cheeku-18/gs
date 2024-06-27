@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>For My Love, Harsha</title>
+    <style>
+        body {
+            font-family: 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            background: linear-gradient(to right, #ffcccc, #ffe6e6);
+            text-align: center;
+            padding: 20px;
+            margin: 0;
+        }
+
+        .container {
+            border: 2px solid #ff9999;
+            padding: 20px;
+            border-radius: 15px;
+            background: #fff;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            max-width: 800px;
+            margin: 20px auto;
+            display: none;
+        }
+
+        .container img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 10px;
+            margin-bottom: 15px;
+        }
+
+        button {
+            background: #ff6666;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            margin: 10px;
+            font-size: 16px;
+            transition: background 0.3s;
+        }
+
+        button:hover {
+            background: #ff3333;
+        }
+
+        .show {
+            display: block !important;
+        }
+
+        h1, h2 {
+            color: #cc0000;
+        }
+
+        p {
+            font-size: 18px;
+            color: #666;
+        }
+
+        .song-lyrics {
+            font-style: italic;
+            color: #444;
+            margin-top: 20px;
+            text-align: left;
+        }
+
+        .back-button {
+            background: #ff9999;
+        }
+
+        .section-title {
+            font-size: 24px;
+            color: #b30000;
+        }
+
+        .song-image {
+            margin: 20px 0;
+            border: 2px solid #ff6666;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div id="welcome" class="container show">
+        <h1>For My Love, Harsha</h1>
+        <p>This website is dedicated to you. Here are three songs that I wrote for you, each capturing a piece of my heart and soul.</p>
+        <button onclick="showSection('song1')">Song 1: Rainy Love</button>
+        <button onclick="showSection('song2')">Song 2: Love Through the Years        </button>
+        <button onclick="showSection('song3')">Song 3: Be With Me</button>
+    </div>
+
+    <!-- Song 1 -->
+    <div id="song1" class="container">
+        <h2 class="section-title">Song 1: Rainy Love</h2>
+        <img src="images/aq.jpg" alt="Rainy Love Lament" class="song-image">
+        <p class="description">This song reflects my longing for you during rainy seasons. Each drop reminds me of the times we could have spent together, but didn't. I want to share every season with you, forever.</p>
+        <div class="song-lyrics">
+            <p>Title: "Rainy Love Lament"<br><br>
+            Verse 1:<br>
+            The rain is falling, but my heart's dry,<br>
+            In the soothing winds, I hear you sigh,<br>
+            Every drop reminds me of your touch,<br>
+            How I miss you, darling, oh so much.<br><br>
+
+            Chorus:<br>
+            Oh, in this rainy season, my hediv aches,<br>
+            Without you, the magic of the rain breaks,<br>
+            Not just this season, but every time,<br>
+            I want you here, forever mine.<br><br>
+
+            Verse 2:<br>
+            The moon hides its light, the streets are bare,<br>
+            Without you beside me, life’s not fair,<br>
+            Why won’t the heavens hear my plea?<br>
+            As they grant rain to those who seek, but not me.<br><br>
+
+            Chorus:<br>
+            Oh, in this rainy season, my heart aches,<br>
+            Without you, the magic of the rain breaks,<br>
+            Not just this season, but every time,<br>
+            I want you here, forever mine.<br><br>
+
+            Bridge:<br>
+            From teenage dreams to twilight years,<br>
+            Through joy and sorrow, laughter and tears,<br>
+            I want to hold you, through it all,<br>
+            Together, forever, we'll stand tall.<br><br>
+
+            Chorus:<br>
+            Oh, in this rainy season, my heart aches,<br>
+            Without you, the magic of the rain breaks,<br>
+            Not just this season, but every time,<br>
+            I want you here, forever mine.<br><br>
+
+            Verse 3:<br>
+            The moon won’t shine, the night feels cold,<br>
+            Without you, life seems so old,<br>
+            God, why can't you hear my call?<br>
+            Bring my love back, through it all.<br><br>
+
+            Chorus:<br>
+            Oh, in this rainy season, my heart aches,<br>
+            Without you, the magic of the rain breaks,<br>
+            Not just this season, but every time,<br>
+            I want you here, forever mine.<br><br>
+
+            Outro:<br>
+            The rain keeps falling, but I feel no joy,<br>
+            Until you're here, my love, my soul's decoy,<br>
+            From this season to life's last breath,<br>
+            I’ll love you, darling, beyond death.</p>
+        </div>
+        <button onclick="backToWelcome()" class="back-button">Back</button>
+    </div>
+
+
+    <!-- Song 2 -->
+    <div id="song2" class="container">
+        <h2 class="section-title">Song 2: Love Through the Years
+        </h2>
+        <img src="img/in.jpg" alt="Love Through the Years"
+        class="song-image">
+        <p class="description">This song tells the story of when I first saw you in high school and how my love for you has grown over the years, even when you were far away. From that first moment, I knew you were the one for me.</p>
+            <div class="song-lyrics">
+                <p>Title: "Love Through the Years"<br><br>
+                (Verse 1)<br>
+                In the heat of summer, high school days,<br>
+                I saw you from afar, in a golden haze.<br>
+                Your hair caught the sunlight, I didn’t see your face,<br>
+                But in that fleeting moment, my heart found its place.<br><br>
+    
+                (Pre-Chorus)<br>
+                Every girl since then, just a shadow in the crowd,<br>
+                'Cause my eyes are on you, you're the one I vowed.<br>
+                I didn’t need to know your name or even where you’re from,<br>
+                For me, it was you, right there and then, my heart was won.<br><br>
+    
+                (Chorus)<br>
+                I said I wanna marry you, not just a date,<br>
+                Even back in high school, when we were just kids, it was fate.<br>
+                Can’t imagine life with anyone but you,<br>
+                I just wanna be loved by you, my dreams coming true.<br><br>
+    
+                (Verse 2)<br>
+                Years have passed, but my love's still pure,<br>
+                From that first glance, I knew it was sure.<br>
+                You never knew me, but for me, you were the one,<br>
+                My heart's been yours since that first ray of sun.<br><br>
+    
+                (Bridge)<br>
+                And every time I see you, I fall in love again,<br>
+                Your smile, your touch, you’re more than just a friend.<br>
+                Through every phase and season, my love's only grown,<br>
+                In this life, you're the only love I’ve ever known.<br><br>
+    
+                (Chorus)<br>
+                I said I wanna marry you, not just a date,<br>
+                Even back in high school, when we were just kids, it was fate.<br>
+                Can’t imagine life with anyone but you,<br>
+                I just wanna be loved by you, my dreams coming true.<br><br>
+    
+                (Outro)<br>
+                Now here we stand, on the edge of forever,<br>
+                With you by my side, I’ll face any weather.<br>
+                From that high school summer,to this very day,<br>
+
+                (Final Chorus)<br>
+                I said I wanna marry you, not just a date,<br>
+                Even back in high school, when we were just kids, it was fate.<br>
+                Can’t imagine life with anyone but you,<br>
+                I just wanna be loved by you, my dreams coming true.<br>
+
+                (Final Outro)<br>
+                In every lifetime, it's you I'll choose,<br>
+                Since that first summer, I’ve had nothing to lose.<br>
+                So, take my hand, let's make this vow true,<br>
+                I wanna marry you, just me and you.<br><br>
+        </div>
+        <button onclick="backToWelcome()" class="back-button">Back</button>
+    </div>
+
+    <!-- Song 3 -->
+    <div id="song3" class="container">
+        <h2 class="section-title">Song 3: Be With Me</h2>
+        <img src="images/in.JPG" alt="Be With Me" class="song-image">
+        <p>This song is about my deepest feelings for you, Harsha, and how much I long for you to be with me forever.</p>
+        <div class="song-lyrics">
+            <p>(Verse 1)<br>
+            Met a lot of faces, seen a lot of eyes,<br>
+            But none of them could ever compare to your light.<br>
+            In a crowded room, you’re the one I see,<br>
+            A heart like yours, it’s a rarity.</p>
+
+            <p>(Pre-Chorus)<br>
+            When the world is spinning and it’s hard to find,<br>
+            Someone who feels like a one-of-a-kind.<br>
+            So I’m holding on, won’t you hold on too?<br>
+            Cause in this life, all I need is you.</p>
+
+            <p>(Chorus)<br>
+            You’re the one, you’re the dream,<br>
+            You’re the reason I believe.<br>
+            Don’t break my heart, be with me,<br>
+            Together we can be so free.<br>
+            You’re the light in the dark,<br>
+            You’re my compass, my North Star.<br>
+            Don’t break my heart, be with me,<br>
+            Cause you’re the one I see.</p>
+
+            <p>(Verse 2)<br>
+            Been around the world, chased a thousand dreams,<br>
+            But every road kept leading me back to you, it seems.<br>
+            In the silent moments when the day is through,<br>
+            I find my peace just thinking of you.</p>
+
+            <p>(Pre-Chorus)<br>
+            When the night is cold and it’s hard to sleep,<br>
+            I feel your warmth in every memory.<br>
+            So I’m holding on, won’t you hold on tight?<br>
+            Cause you and me, we can make it right.</p>
+
+            <p>(Chorus)<br>
+            You’re the one, you’re the dream,<br>
+            You’re the reason I believe.<br>
+            Don’t break my heart, be with me,<br>
+            Together we can be so free.<br>
+            You’re the light in the dark,<br>
+            You’re my compass, my North Star.<br>
+            Don’t break my heart, be with me,<br>
+            Cause you’re the one I see.</p>
+
+            <p>(Bridge)<br>
+            When the clouds come rolling in,<br>
+            And life’s a storm we’re caught within.<br>
+            I’ll be your shelter, be your calm,<br>
+            Together we’ll weather any harm.</p>
+
+            <p>(Chorus)<br>
+            You’re the one, you’re the dream,<br>
+            You’re the reason I believe.<br>
+            Don’t break my heart, be with me,<br>
+            Together we can be so free.<br>
+            You’re the light in the dark,<br>
+            You’re my compass, my North Star.<br>
+            Don’t break my heart, be with me,<br>
+            Cause you’re the one I see.</p>
+
+            <p>(Outro)<br>
+            So take my hand, let’s start anew,<br>
+            Cause in this life, all I need is you.<br>
+            You’re the one, can’t you see?<br>
+            So don’t break my heart, just be with me.</p>
+        </div>
+        <button onclick="backToWelcome()" class="back-button">Back</button>
+    </div>
+
+    <script>
+        function showSection(sectionId) {
+            const currentSection = document.querySelector('.container.show');
+            currentSection.classList.remove('show');
+            document.getElementById(sectionId).classList.add('show');
+        }
+
+        function backToWelcome() {
+            const currentSection = document.querySelector('.container.show');
+            currentSection.classList.remove('show');
+            document.getElementById('welcome').classList.add('show');
+        }
+    </script>
+</body>
+</html>
